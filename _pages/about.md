@@ -19,9 +19,11 @@ redirect_from:
 
 I am Houcheng Su, currently pursuing a Ph.D. in Data Science and Analytics at **Hong Kong University of Science and Technology (Guangzhou)** under the supervision of [Yanlin Zhang](https://scholar.google.com.hk/citations?user=1K76SCUAAAAJ). Previously, I completed my Master’s degree in Data Science with a specialization in Artificial Intelligence Applications at the **University of Macau** , where [Chi-Man Vong](https://scholar.google.com.hk/citations?user=uFUPIekAAAAJ) advised me. I also hold a Bachelor's in Computer Science and Technology from **Sichuan Agricultural University** .
 
-My research interests encompass Bioinformation Analysis, Transfer Learning, Computer Vision, Few-shot Learning, and Domain Adaptation. If you want to cooperate with me, you can contact me by email at any time.
+My research interests encompass Bioinformation Analysis, Transfer Learning, Computer Vision, and Domain Adaptation. 
 
+If you want to cooperate on related research topics with me, you can contact me by email at any time.
 
+Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 
 
 # 🔥 News
