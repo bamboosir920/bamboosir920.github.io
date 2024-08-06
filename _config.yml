@@ -6,13 +6,13 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Houcheng Su's Academic Homepage"
+title                    : "Houcheng Su's Homepage"
 description              : "Researcher in Bioinformation Analysis, Computer Vision, and AI Applications. Explore my work, publications, and projects here."
 repository               : "HouchengSu/bamboosir920.github.io"
 google_scholar_stats_use_cdn : true
 
 # Google Analytics
-google_analytics_id      : "YOUR_GOOGLE_ANALYTICS_ID"  # get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id      : "77x1NdQAAAAJ"  # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
 google_site_verification : "YOUR_GOOGLE_SITE_VERIFICATION_CODE"  # get google_site_verification from https://search.google.com/search-console/about
@@ -24,11 +24,11 @@ author:
   name             : "Houcheng Su"
   avatar           : "images/profile.png"
   bio              : "Researcher at University of Macau. Specializing in Bioinformation Analysis, Transfer Learning, and AI Applications."
-  location         : "Macau, China"
-  employer         : "University of Macau"
+  location         : "Guangzhou, China"
+  employer         : "HKUST(GZ)"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "mc25695@umac.mo"
+  googlescholar    : "https://scholar.google.com.hk/citations?user=77x1NdQAAAAJ"
+  email            : "hsu638@connect.hkust-gz.edu.cn"
   researchgate     : "https://www.researchgate.net/profile/Houcheng_Su"
   uri              :
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "HouchengSu" # e.g., "github username"
+  github           : "bamboosir920" # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
