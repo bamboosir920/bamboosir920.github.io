@@ -25,14 +25,11 @@ I am Houcheng Su, currently pursuing a Ph.D. in Data Science and Analytics at HK
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+[Sharpness-Aware Model-Agnostic Long-Tailed Domain Generalization](https://ojs.aaai.org/index.php/AAAI/article/view/29431)
 
-[Sharpness-Aware Model-Agnostic Long-Tailed Domain Generalization](#)
+**Houcheng Su**,Weihao Luo,Daixian Liu,Mengzhu Wang,Jing Tang,Junyang Chen,Cong Wang,Cong Wang
 
-**Houcheng Su**
-
-**Accepted at AAAI 2024**
+**AAAI 2024**
 
 As the first author, I completed all experiments and paper writing.
 </div>
