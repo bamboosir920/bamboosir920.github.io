@@ -22,7 +22,7 @@ baidu_site_verification  : "YOUR_BAIDU_SITE_VERIFICATION_CODE"  # get baidu_site
 # Site Author
 author:
   name             : "Houcheng Su"
-  avatar           : "images/android-chrome-192x192"
+  avatar           : "images/android-chrome-192x192.png"
   bio              : ""
   location         : "Guangzhou, China"
   employer         : "HKUST(GZ)"
