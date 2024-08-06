@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Houcheng Su, currently pursuing a Ph.D. in Data Science and Analytics at HKUST (GZ) under the supervision of Yanlin Zhang. My research interests encompass Bioinformation Analysis, Transfer Learning, Computer Vision, Few-shot Learning, and Domain Adaptation. Previously, I completed my Master’s degree in Data Science with a specialization in Artificial Intelligence Applications at the University of Macau, where I was advised by Chi-Man Vong. I also hold a Bachelor's degree in Computer Science and Technology from Sichuan Agricultural University.
+I am Houcheng Su, currently pursuing a Ph.D. in Data Science and Analytics at **Hong Kong University of Science and Technology (Guangzhou)** under the supervision of [Yanlin Zhang](https://scholar.google.com.hk/citations?user=1K76SCUAAAAJ). Previously, I completed my Master’s degree in Data Science with a specialization in Artificial Intelligence Applications at the **University of Macau** , where [Chi-Man Vong](https://scholar.google.com.hk/citations?user=uFUPIekAAAAJ) advised me. I also hold a Bachelor's in Computer Science and Technology from **Sichuan Agricultural University** .
+
+My research interests encompass Bioinformation Analysis, Transfer Learning, Computer Vision, Few-shot Learning, and Domain Adaptation. 
 
 
 # 🔥 News
@@ -43,9 +45,9 @@ I am Houcheng Su, currently pursuing a Ph.D. in Data Science and Analytics at HK
 
 
 # 📖 Educations
-- *2024.08 - Present*, **Ph.D. in Data Science and Analytics**, HKUST (GZ)
-- *2022.08 - 2024.06*, **Master's in Artificial Intelligence Application**, University of Macau, GPA: 3.52
-- *2018.09 - 2022.06*, **Bachelor's in Computer Science and Technology**, Sichuan Agricultural University, GPA: 3.70
+- *2024.08 - Present*, **Ph.D. in Data Science and Analytics**, Hong Kong University of Science and Technology (Guangzhou).
+- *2022.08 - 2024.06*, **Master's in Artificial Intelligence Application**, University of Macau.
+- *2018.09 - 2022.06*, **Bachelor's in Computer Science and Technology**, Sichuan Agricultural University.
 
 # 🧑‍🔬 Reviewing Activities
 - *Present*: Serving as a reviewer for **ACM MM** and **Frontiers of Computer Science**. 📝  
