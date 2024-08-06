@@ -47,6 +47,7 @@ Ye Wang, Junyang Chen, Mengzhu Wang, Hao Li, Wei Wang, **Houcheng Su**, Zhihui L
 - *2022.08 - 2024.06*, **Master's in Artificial Intelligence Application**, University of Macau, GPA: 3.52
 - *2018.09 - 2022.06*, **Bachelor's in Computer Science and Technology**, Sichuan Agricultural University, GPA: 3.70
 
+<!--
 # 🎖 Honors and Awards
 - *2021.10* Received the China Telecom Scholarship - Fly Young Award.
 - *2021.09* Awarded National First Prize in the Undergraduate Mathematical Modeling Contest of Gaojiao She Cup.
@@ -55,6 +56,7 @@ Ye Wang, Junyang Chen, Mengzhu Wang, Hao Li, Wei Wang, **Houcheng Su**, Zhihui L
 
 # 💬 Invited Talks
 - *2023.12*, Invited speaker at the "AI in Bioinformatics" seminar, where I discussed novel approaches to domain generalization and their applications in bioinformation analysis.
-
+-->
 # 💻 Internships
-- *2022.05 - 2022.08*, [Tsinghua Shenzhen International Graduate School](https://www.tsinghua.edu.cn/en/), Shenzhen, China. Developed an AI game generator as the lead programmer.
+- *2023.09 - 2024.06*, **Director of Teaching and Research**, Dark Horse Technology Group Co. Ltd. (创业黑马集团北京黑马数智科技有限公司).  
+- *2023.07 - 2024.08*, **AI Technical Advisor**, Think&Listen (思而听(山东)网络科技有限公司).  
