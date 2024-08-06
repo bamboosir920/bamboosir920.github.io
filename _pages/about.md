@@ -53,10 +53,12 @@ Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 - *2022.08 - 2024.06*, **Master's in Artificial Intelligence Application**, University of Macau.
 - *2018.09 - 2022.06*, **Bachelor's in Computer Science and Technology**, Sichuan Agricultural University.
 
-# 🧑‍🔬 Reviewing Activities
-- *Present*: Serving as a reviewer for **ACM MM** and **Frontiers of Computer Science**. 📝  
-  I actively contribute to the peer review process, ensuring the quality and integrity of research published in these prestigious venues.
-
+# 📝 Services
+## Journal Reviewer
+- Reviewer for Frontiers of Computer Science
+## Conference
+- Reviewer for AAAI Conference on Artificial Intelligence (AAAI)
+- Reviewer for ACM Multimedia (MM)
 
 <!--
 # 🎖 Honors and Awards
