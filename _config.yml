@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Houcheng Su's Homepage"
-description              : "Researcher in Bioinformation Analysis, Computer Vision, and AI Applications. Explore my work, publications, and projects here."
+description              : "PhD candidate in Data Science and Analytics, HKUST (GZ)"
 repository               : "HouchengSu/bamboosir920.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,9 +23,9 @@ baidu_site_verification  : "YOUR_BAIDU_SITE_VERIFICATION_CODE"  # get baidu_site
 author:
   name             : "Houcheng Su"
   avatar           : "images/profile.png"
-  bio              : "HKUST(GZ)"
+  bio              : ""
   location         : "Guangzhou, China"
-  employer         : "HKUST(GZ)"
+  employer         : "Hong Kong University of Science and Technology (GZ)"
   pubmed           : 
   googlescholar    : "https://scholar.google.com.hk/citations?user=77x1NdQAAAAJ"
   email            : "hsu638@connect.hkust-gz.edu.cn"
