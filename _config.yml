@@ -23,7 +23,7 @@ baidu_site_verification  : "YOUR_BAIDU_SITE_VERIFICATION_CODE"  # get baidu_site
 author:
   name             : "Houcheng Su"
   avatar           : "images/profile.png"
-  bio              : "Researcher at University of Macau. Specializing in Bioinformation Analysis, Transfer Learning, and AI Applications."
+  bio              : "HKUST(GZ)"
   location         : "Guangzhou, China"
   employer         : "HKUST(GZ)"
   pubmed           : 
