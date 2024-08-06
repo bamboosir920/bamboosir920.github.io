@@ -17,7 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Houcheng Su, currently pursuing a Ph.D. in Data Science and Analytics at HKUST (GZ). My research interests encompass Bioinformation Analysis, Transfer Learning, Computer Vision, Few-shot Learning, and Domain Adaptation. I have published multiple papers in top-tier conferences and journals, including AAAI, ACM MM, and other SCI journals.
+I am Houcheng Su, currently pursuing a Ph.D. in Data Science and Analytics at HKUST (GZ) under the supervision of Yanlin Zhang. My research interests encompass Bioinformation Analysis, Transfer Learning, Computer Vision, Few-shot Learning, and Domain Adaptation. Previously, I completed my Master’s degree in Data Science with a specialization in Artificial Intelligence Applications at the University of Macau, where I was advised by Chi-Man Vong. I also hold a Bachelor's degree in Computer Science and Technology from Sichuan Agricultural University.
+
 
 # 🔥 News
 - *2024.08*: &nbsp;🎉🎉 Started my Ph.D. program in Data Science and Analytics at HKUST (GZ).
