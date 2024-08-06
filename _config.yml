@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Houcheng Su's Homepage"
-description              : "PhD candidate in Data Science and Analytics, HKUST (GZ)"
+description              : "Bioinformation, Transfer Learning, Muti-instance Muti-label Learning, Computer Vision"
 repository               : "HouchengSu/bamboosir920.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -25,11 +25,11 @@ author:
   avatar           : "images/profile.png"
   bio              : ""
   location         : "Guangzhou, China"
-  employer         : "Hong Kong University of Science and Technology (GZ)"
+  employer         : "HKUST(GZ)"
   pubmed           : 
   googlescholar    : "https://scholar.google.com.hk/citations?user=77x1NdQAAAAJ"
   email            : "hsu638@connect.hkust-gz.edu.cn"
-  researchgate     : "https://www.researchgate.net/profile/Houcheng_Su"
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
@@ -41,17 +41,17 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
-  linkedin         : "houcheng-su" # e.g., "linkedin username"
-  dblp             : "https://dblp.org/pid/xx/xxxx.html" # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/xxxx-xxxx-xxxx-xxxx" # e.g., "https://orcid.org/xxxx"
+  linkedin         : 
+  dblp             : 
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : "http://stackoverflow.com/users/123456/username" # e.g., "http://stackoverflow.com/users/123456/username"
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "houcheng_su"
+  twitter          :
   vine             :
   weibo            :
   xing             :
