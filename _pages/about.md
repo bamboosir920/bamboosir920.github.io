@@ -25,27 +25,33 @@ I am Houcheng Su, currently pursuing a Ph.D. in Data Science and Analytics at HK
 
 # 📝 Publications 
 
-[Sharpness-Aware Model-Agnostic Long-Tailed Domain Generalization](https://ojs.aaai.org/index.php/AAAI/article/view/29431)
+- [Sharpness-Aware Model-Agnostic Long-Tailed Domain Generalization](https://ojs.aaai.org/index.php/AAAI/article/view/29431)
 
 **Houcheng Su**,Weihao Luo,Daixian Liu,Mengzhu Wang,Jing Tang,Junyang Chen,Cong Wang,Cong Wang
 
 **AAAI 2024**
+- [Sparse Enhanced Network: An Adversarial Generation Method for Robust Augmentation in Sequential Recommendation](https://ojs.aaai.org/index.php/AAAI/article/view/28669)
 
-As the first author, I completed all experiments and paper writing.
-</div>
-</div>
+Junyang Chen, Guoxuan Zou, Pan Zhou, Wu Yirui, Zhenghan Chen, **Houcheng Su**, Huan Wang, Zhiguo Gong
+ 
+**AAAI 2024**
 
-- [Graph-based Label Enhancement for Multi-instance Multi-label Learning](#), **Houcheng Su**, Under Review at *Information Sciences*
-- [Singular Value Maximization and Suppression: Addressing Imbalanced & Indistinct Classes for Domain Generalization](#), **Houcheng Su**, Under Review at *Knowledge-Based Systems*
+- [A closer look at classifier in adversarial domain generalization](https://dl.acm.org/doi/abs/10.1145/3581783.3611743),
+Ye Wang, Junyang Chen, Mengzhu Wang, Hao Li, Wei Wang, **Houcheng Su**, Zhihui Lai, Wei Wang, Zhenghan Chen
 
-# 🎖 Honors and Awards
-- *2021.10* Received the China Telecom Scholarship - Fly Young Award.
-- *2021.09* Awarded National First Prize in the Undergraduate Mathematical Modeling Contest of Gaojiao She Cup.
+**ACM MM2024(CCFA)**
+
 
 # 📖 Educations
 - *2024.08 - Present*, **Ph.D. in Data Science and Analytics**, HKUST (GZ)
 - *2022.08 - 2024.06*, **Master's in Artificial Intelligence Application**, University of Macau, GPA: 3.52
 - *2018.09 - 2022.06*, **Bachelor's in Computer Science and Technology**, Sichuan Agricultural University, GPA: 3.70
+
+# 🎖 Honors and Awards
+- *2021.10* Received the China Telecom Scholarship - Fly Young Award.
+- *2021.09* Awarded National First Prize in the Undergraduate Mathematical Modeling Contest of Gaojiao She Cup.
+
+
 
 # 💬 Invited Talks
 - *2023.12*, Invited speaker at the "AI in Bioinformatics" seminar, where I discussed novel approaches to domain generalization and their applications in bioinformation analysis.
