@@ -25,27 +25,31 @@ I am Houcheng Su, currently pursuing a Ph.D. in Data Science and Analytics at HK
 
 # 📝 Publications 
 
-- [Sharpness-Aware Model-Agnostic Long-Tailed Domain Generalization](https://ojs.aaai.org/index.php/AAAI/article/view/29431)
+[Sharpness-Aware Model-Agnostic Long-Tailed Domain Generalization](https://ojs.aaai.org/index.php/AAAI/article/view/29431)
 
-**Houcheng Su**,Weihao Luo,Daixian Liu,Mengzhu Wang,Jing Tang,Junyang Chen,Cong Wang,Cong Wang
+- **Houcheng Su**,Weihao Luo,Daixian Liu,Mengzhu Wang,Jing Tang,Junyang Chen,Cong Wang,Cong Wang
+- **AAAI 2024(CCFA)**
 
-**AAAI 2024**
-- [Sparse Enhanced Network: An Adversarial Generation Method for Robust Augmentation in Sequential Recommendation](https://ojs.aaai.org/index.php/AAAI/article/view/28669)
 
-Junyang Chen, Guoxuan Zou, Pan Zhou, Wu Yirui, Zhenghan Chen, **Houcheng Su**, Huan Wang, Zhiguo Gong
- 
-**AAAI 2024**
+[Sparse Enhanced Network: An Adversarial Generation Method for Robust Augmentation in Sequential Recommendation](https://ojs.aaai.org/index.php/AAAI/article/view/28669)
 
-- [A closer look at classifier in adversarial domain generalization](https://dl.acm.org/doi/abs/10.1145/3581783.3611743),
-Ye Wang, Junyang Chen, Mengzhu Wang, Hao Li, Wei Wang, **Houcheng Su**, Zhihui Lai, Wei Wang, Zhenghan Chen
+- Junyang Chen, Guoxuan Zou, Pan Zhou, Wu Yirui, Zhenghan Chen, **Houcheng Su**, Huan Wang, Zhiguo Gong
+- **AAAI 2024(CCFA)**
 
-**ACM MM2024(CCFA)**
+[A closer look at classifier in adversarial domain generalization](https://dl.acm.org/doi/abs/10.1145/3581783.3611743),
+- Ye Wang, Junyang Chen, Mengzhu Wang, Hao Li, Wei Wang, **Houcheng Su**, Zhihui Lai, Wei Wang, Zhenghan Chen
+- **ACM MM2024(CCFA)**
 
 
 # 📖 Educations
 - *2024.08 - Present*, **Ph.D. in Data Science and Analytics**, HKUST (GZ)
 - *2022.08 - 2024.06*, **Master's in Artificial Intelligence Application**, University of Macau, GPA: 3.52
 - *2018.09 - 2022.06*, **Bachelor's in Computer Science and Technology**, Sichuan Agricultural University, GPA: 3.70
+
+# 🧑‍🔬 Reviewing Activities
+- *Present*: Serving as a reviewer for **ACM MM** and **Frontiers of Computer Science**. 📝  
+  I actively contribute to the peer review process, ensuring the quality and integrity of research published in these prestigious venues.
+
 
 <!--
 # 🎖 Honors and Awards
