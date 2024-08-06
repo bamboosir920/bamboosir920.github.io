@@ -65,11 +65,11 @@ Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 - *2021.10* Received the China Telecom Scholarship - Fly Young Award.
 - *2021.09* Awarded National First Prize in the Undergraduate Mathematical Modeling Contest of Gaojiao She Cup.
 
+# 💻 Internships
+- *2023.09 - 2024.06*, **Director of Teaching and Research**, Dark Horse Technology Group Co. Ltd. (创业黑马集团北京黑马数智科技有限公司).  
+- *2023.07 - 2024.08*, **AI Technical Advisor**, Think&Listen (思而听(山东)网络科技有限公司).  
 
 
 # 💬 Invited Talks
 - *2023.12*, Invited speaker at the "AI in Bioinformatics" seminar, where I discussed novel approaches to domain generalization and their applications in bioinformation analysis.
 -->
-# 💻 Internships
-- *2023.09 - 2024.06*, **Director of Teaching and Research**, Dark Horse Technology Group Co. Ltd. (创业黑马集团北京黑马数智科技有限公司).  
-- *2023.07 - 2024.08*, **AI Technical Advisor**, Think&Listen (思而听(山东)网络科技有限公司).  
