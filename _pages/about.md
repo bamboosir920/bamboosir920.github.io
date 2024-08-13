@@ -38,7 +38,7 @@ Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 
 [Sharpness-Aware Model-Agnostic Long-Tailed Domain Generalization](https://ojs.aaai.org/index.php/AAAI/article/view/29431)
 
-**Houcheng Su**,Weihao Luo,Daixian Liu,Mengzhu Wang,Jing Tang,Junyang Chen,Cong Wang,Cong Wang 【2023.12】 <br>
+**Houcheng Su**,Weihao Luo,Daixian Liu,Mengzhu Wang,Jing Tang,Junyang Chen,Cong Wang,Cong Wang 【AAAI2024(CCFA)】 <br>
 
 </div>
 </div>
@@ -49,17 +49,17 @@ Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 
 [Sparse Enhanced Network: An Adversarial Generation Method for Robust Augmentation in Sequential Recommendation](https://ojs.aaai.org/index.php/AAAI/article/view/28669)
 
-Junyang Chen, Guoxuan Zou, Pan Zhou, Wu Yirui, Zhenghan Chen, **Houcheng Su**, Huan Wang, Zhiguo Gong 【2023.12】 <br>
+Junyang Chen, Guoxuan Zou, Pan Zhou, Wu Yirui, Zhenghan Chen, **Houcheng Su**, Huan Wang, Zhiguo Gong 【AAAI2024(CCFA)】 <br>
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM2024</div><img src='./images/MM2023-01.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM2024</div><img src='images/MM2023-01.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A closer look at classifier in adversarial domain generalization](https://dl.acm.org/doi/abs/10.1145/3581783.3611743)
 
-Ye Wang, Junyang Chen, Mengzhu Wang, Hao Li, Wei Wang, **Houcheng Su**, Zhihui Lai, Wei Wang, Zhenghan Chen 【2023.05】 <br>
+Ye Wang, Junyang Chen, Mengzhu Wang, Hao Li, Wei Wang, **Houcheng Su**, Zhihui Lai, Wei Wang, Zhenghan Chen 【ACM MM2024(CCFA)】 <br>
 
 </div>
 </div>
