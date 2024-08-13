@@ -54,7 +54,7 @@ Junyang Chen, Guoxuan Zou, Pan Zhou, Wu Yirui, Zhenghan Chen, **Houcheng Su**, H
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM2024</div><img src='images/MM2023-01.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM2024</div><img src='./images/MM2023-01.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A closer look at classifier in adversarial domain generalization](https://dl.acm.org/doi/abs/10.1145/3581783.3611743)
