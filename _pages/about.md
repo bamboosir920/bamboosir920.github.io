@@ -32,20 +32,37 @@ Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 
 # 📝 Publications 
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI2024</div><img src='images/AAAI2024-01.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
 [Sharpness-Aware Model-Agnostic Long-Tailed Domain Generalization](https://ojs.aaai.org/index.php/AAAI/article/view/29431)
 
-- **Houcheng Su**,Weihao Luo,Daixian Liu,Mengzhu Wang,Jing Tang,Junyang Chen,Cong Wang,Cong Wang
-- **AAAI 2024(CCFA)**
+**Houcheng Su**,Weihao Luo,Daixian Liu,Mengzhu Wang,Jing Tang,Junyang Chen,Cong Wang,Cong Wang 【2023.12】 <br>
 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI2024</div><img src='images/AAAI2024-02.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 [Sparse Enhanced Network: An Adversarial Generation Method for Robust Augmentation in Sequential Recommendation](https://ojs.aaai.org/index.php/AAAI/article/view/28669)
 
-- Junyang Chen, Guoxuan Zou, Pan Zhou, Wu Yirui, Zhenghan Chen, **Houcheng Su**, Huan Wang, Zhiguo Gong
-- **AAAI 2024(CCFA)**
+Junyang Chen, Guoxuan Zou, Pan Zhou, Wu Yirui, Zhenghan Chen, **Houcheng Su**, Huan Wang, Zhiguo Gong 【2023.12】 <br>
 
-[A closer look at classifier in adversarial domain generalization](https://dl.acm.org/doi/abs/10.1145/3581783.3611743),
-- Ye Wang, Junyang Chen, Mengzhu Wang, Hao Li, Wei Wang, **Houcheng Su**, Zhihui Lai, Wei Wang, Zhenghan Chen
-- **ACM MM2024(CCFA)**
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM2024</div><img src='images/MM2023-01.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A closer look at classifier in adversarial domain generalization](https://dl.acm.org/doi/abs/10.1145/3581783.3611743)
+
+Ye Wang, Junyang Chen, Mengzhu Wang, Hao Li, Wei Wang, **Houcheng Su**, Zhihui Lai, Wei Wang, Zhenghan Chen 【2023.05】 <br>
+
+</div>
+</div>
 
 
 # 📖 Educations
@@ -61,6 +78,17 @@ Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 - Reviewer for ACM Multimedia (MM)
 
 <!--
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/overview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Sharpness-Aware Model-Agnostic Long-Tailed Domain Generalization](https://ojs.aaai.org/index.php/AAAI/article/view/29431)
+
+**Houcheng Su**,Weihao Luo,Daixian Liu,Mengzhu Wang,Jing Tang,Junyang Chen,Cong Wang,Cong Wang 【2023.12】 <br>
+[![arXiv](https://img.shields.io/badge/Arxiv-2406.11194-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2406.11194)  [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-ICE-blue)](https://huggingface.co/datasets/Yofuria/ICE)  [![paperwithcode](https://img.shields.io/badge/PWC-ICE-blue?logo=paperswithcode)](https://paperswithcode.com/paper/in-context-editing-learning-knowledge-from) [![code](https://img.shields.io/badge/Code-ICE-blue?logo=github)](https://github.com/bigai-ai/ICE)
+
+</div>
+</div>
+
 # 🎖 Honors and Awards
 - *2021.10* Received the China Telecom Scholarship - Fly Young Award.
 - *2021.09* Awarded National First Prize in the Undergraduate Mathematical Modeling Contest of Gaojiao She Cup.
