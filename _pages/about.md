@@ -71,9 +71,12 @@ Ye Wang, Junyang Chen, Mengzhu Wang, Hao Li, Wei Wang, **Houcheng Su**, Zhihui L
 - *2018.09 - 2022.06*, **Bachelor's in Computer Science and Technology**, Sichuan Agricultural University.
 
 # 📝 Services
+
 ## Journal Reviewer
 - Reviewer for Frontiers of Computer Science
-## Conference
+
+
+## Conference Reviewer
 - Reviewer for AAAI Conference on Artificial Intelligence (AAAI)
 - Reviewer for ACM Multimedia (MM)
 
