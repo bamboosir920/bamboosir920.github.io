@@ -78,7 +78,7 @@ Ye Wang, Junyang Chen, Mengzhu Wang, Hao Li, Wei Wang, **Houcheng Su**, Zhihui L
 
 
 ## Conference Reviewer
-- Reviewer for AAAI Conference on Artificial Intelligence (AAAI)
+- Reviewer for ICLR
 - Reviewer for ACM Multimedia (MM)
 
 <!--
