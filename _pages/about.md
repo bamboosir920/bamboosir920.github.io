@@ -27,6 +27,8 @@ Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 
 
 # 🔥 News
+- *2024.12*: &nbsp;🎉🎉 one paper accepted by  ICASSP2025 (as First Author).
+- *2024.12*: &nbsp;🎉🎉 one paper accepted by  AAAI2025 (as Second Author).
 - *2024.08*: &nbsp;🎉🎉 Started my Ph.D. program in Data Science and Analytics at HKUST (GZ).
 - *2024.06*: &nbsp;🎉🎉 Completed my Master's degree in Artificial Intelligence Application from the University of Macau.
 
@@ -77,6 +79,7 @@ Ye Wang, Junyang Chen, Mengzhu Wang, Hao Li, Wei Wang, **Houcheng Su**, Zhihui L
 - Reviewer for CVPR
 - Reviewer for ACM Multimedia (MM)
 - Reviewer for ICASSP
+- Reviewer for IJCNN
 
 ## Journal Reviewer
 - Reviewer for Frontiers of Computer Science
