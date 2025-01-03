@@ -78,8 +78,10 @@ Ye Wang, Junyang Chen, Mengzhu Wang, Hao Li, Wei Wang, **Houcheng Su**, Zhihui L
 - Reviewer for ICLR
 - Reviewer for CVPR
 - Reviewer for ACM Multimedia (MM)
+- PC members for IJCAI
 - Reviewer for ICASSP
 - Reviewer for IJCNN
+
 
 ## Journal Reviewer
 - Reviewer for Frontiers of Computer Science
