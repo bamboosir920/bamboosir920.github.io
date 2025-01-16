@@ -27,6 +27,7 @@ Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 
 
 # 🔥 News
+- *2025.01*: &nbsp;🎉🎉 one paper accepted by  **TSCVT** (as **First Author**).
 - *2024.12*: &nbsp;🎉🎉 one paper accepted by  **ICASSP2025** (as **First Author**).
 - *2024.12*: &nbsp;🎉🎉 one paper accepted by  **AAAI2025** (as **Second Author**).
 - *2024.08*: &nbsp;🎉🎉 Started my **Ph.D**. program in Data Science and Analytics at **HKUST (GZ)**.
