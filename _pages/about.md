@@ -29,7 +29,7 @@ Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 # 🔥 News
 - *2025.03*: &nbsp;🎉🎉 one paper accepted by  **ISMB (proceeding)** (as **Second Author**).
 - *2025.03*: &nbsp;🎉🎉 one paper accepted by  **The Visual Computer**.
-- *2025.01*: &nbsp;🎉🎉 one paper accepted by  **TSCVT** (as **Second Author**).
+- *2025.01*: &nbsp;🎉🎉 one paper accepted by  **TCSVT** (as **Second Author**).
 - *2024.12*: &nbsp;🎉🎉 one paper accepted by  **ICASSP2025** (as **First Author**).
 - *2024.12*: &nbsp;🎉🎉 one paper accepted by  **AAAI2025** (as **Second Author**).
 - *2024.08*: &nbsp;🎉🎉 Started my **Ph.D**. program in Data Science and Analytics at **HKUST (GZ)**.
@@ -46,13 +46,13 @@ Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TSCVT</div><img src='images/TSCVT-01.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT</div><img src='images/TSCVT-01.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Graph Convolutional Mixture-of-Experts Learner Network for Long-Tailed Domain Generalization](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10848195&casa_token=gG4jWQlt0QYAAAAA:1jFsp94TV0VKe8gyBjqN_T2WjXINgyI3vW93WmyzYjlUHT5HpMtJqZh7xm2V2kKYgajqOBhMPOsN5J4&tag=1)
 
  Mengzhu Wang, **Houcheng Su**, Sijia Wang, Shanshan Wang, Nan Yin, Li Shen, Long Lan, Liang Yang,
- Xiaochun Cao 【TSCVT(CCFB)】 <br>
+ Xiaochun Cao 【TCSVT(CCFB)】 <br>
 
 </div>
 </div>
