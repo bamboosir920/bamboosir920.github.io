@@ -105,16 +105,5 @@ Weicai Long, **Houcheng Su**, Jiaqi Xiong and Yanlin Zhang 【ISMB(CCFB)】 <br>
 
 
 
-<!--
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/overview.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Sharpness-Aware Model-Agnostic Long-Tailed Domain Generalization](https://ojs.aaai.org/index.php/AAAI/article/view/29431)
-
-**Houcheng Su**,Weihao Luo,Daixian Liu,Mengzhu Wang,Jing Tang,Junyang Chen,Cong Wang,Cong Wang 【2023.12】 <br>
-[![arXiv](https://img.shields.io/badge/Arxiv-2406.11194-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2406.11194)  [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-ICE-blue)](https://huggingface.co/datasets/Yofuria/ICE)  [![paperwithcode](https://img.shields.io/badge/PWC-ICE-blue?logo=paperswithcode)](https://paperswithcode.com/paper/in-context-editing-learning-knowledge-from) [![code](https://img.shields.io/badge/Code-ICE-blue?logo=github)](https://github.com/bigai-ai/ICE)
-
-</div>
-</div>
 
 
