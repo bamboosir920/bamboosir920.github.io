@@ -27,6 +27,8 @@ Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 
 
 # 🔥 News
+- *2025.03*: &nbsp;🎉🎉 one paper accepted by  **ISMB (proceeding)** (as **Second Author**).
+- *2025.03*: &nbsp;🎉🎉 one paper accepted by  **The Visual Computer**.
 - *2025.01*: &nbsp;🎉🎉 one paper accepted by  **TSCVT** (as **Second Author**).
 - *2024.12*: &nbsp;🎉🎉 one paper accepted by  **ICASSP2025** (as **First Author**).
 - *2024.12*: &nbsp;🎉🎉 one paper accepted by  **AAAI2025** (as **Second Author**).
@@ -34,6 +36,27 @@ Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 - *2024.06*: &nbsp;🎉🎉 Completed my **Master's degree** in Artificial Intelligence Application from the **University of Macau**.
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP2025</div><img src='images/ICASSP-01.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Towards Fully Test-Time Adaptation via Variance Balancing and Semantic Augmentation](https://ieeexplore.ieee.org/abstract/document/10887707)
+
+**Houcheng Su**, Bingli Wang, Daixian Liu, Jiao Li, Chen-Bin Feng, Chi-Man Vong 【ICASSP(CCFB)】 <br>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISMB2025</div><img src='images/ISMB-01.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MutBERT: Probabilistic Genome Representation
+ Improves Genomics Foundation Models](https://www.biorxiv.org/content/biorxiv/early/2025/01/25/2025.01.23.634452.full.pdf)
+
+Weicai Long, **Houcheng Su**, Jiaqi Xiong and Yanlin Zhang 【ISMB(CCFB)】 <br>
+
+</div>
+</div>
+
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI2024</div><img src='images/AAAI2024-01.png' alt="sym" width="100%"></div></div>
