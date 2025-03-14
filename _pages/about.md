@@ -57,7 +57,7 @@ Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISMB2025/div><img src='images/ISMB-01.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISMB2025</div><img src='images/ISMB-01.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MutBERT: Probabilistic Genome Representation
