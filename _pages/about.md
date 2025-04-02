@@ -27,6 +27,7 @@ Contact: [email](hsu638@connect.hkust-gz.edu.cn)
 
 
 # 🔥 News
+- *2025.04*: &nbsp;🎉🎉 one paper accepted by  **IJCNN** (as **Corresponding Author**).
 - *2025.03*: &nbsp;🎉🎉 one paper accepted by  **ISMB (proceeding)** (as **Second Author**).
 - *2025.03*: &nbsp;🎉🎉 one paper accepted by  **The Visual Computer**.
 - *2025.01*: &nbsp;🎉🎉 one paper accepted by  **TCSVT** (as **Second Author**).
