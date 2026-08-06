@@ -25,6 +25,8 @@
   topic: "science"
   label: "AI for Science"
   url: "https://doi.org/10.18653/v1/2026.acl-long.1655"
+  image: "/images/genomeqa-overview.png"
+  image_alt: "Overview of the GenomeQA benchmark and its six genome sequence understanding tasks"
 
 - title: "PhageBench: Can LLMs Understand Raw Bacteriophage Genomes?"
   authors: "Yusen Hou, Weicai Long, Haitao Hu, Houcheng Su, Junning Feng, Yanlin Zhang"
@@ -33,6 +35,8 @@
   topic: "science"
   label: "AI for Science"
   url: "https://doi.org/10.18653/v1/2026.findings-acl.1432"
+  image: "/images/phagebench-tasks.png"
+  image_alt: "PhageBench workflow covering screening, quality control, and phenotype annotation tasks"
 
 - title: "Probability-Guided Contrastive Learning for Long-Tailed Domain Generalization"
   authors: "Mengzhu Wang, Houcheng Su, Shanshan Wang, Nan Yin, Long Lan, Liang Yang, Li Shen"
@@ -41,6 +45,8 @@
   topic: "learning"
   label: "Reliable ML"
   url: "https://doi.org/10.1109/TBDATA.2025.3624965"
+  image: "/images/pgcl-concept.png"
+  image_alt: "Conceptual visualization of probability-guided contrastive learning on a feature hypersphere"
 
 - title: "GraphCL: Graph-based Clustering for Semi-Supervised Medical Image Segmentation"
   authors: "Mengzhu Wang, Houcheng Su, Jiao Li, Chuan Li, Nan Yin, Li Shen, Jingcai Guo"
@@ -49,6 +55,8 @@
   topic: "science"
   label: "AI for Science"
   url: "https://proceedings.mlr.press/v267/wang25cq.html"
+  image: "/images/graphcl-framework.png"
+  image_alt: "GraphCL framework for graph-based clustering in semi-supervised medical image segmentation"
 
 - title: "MutBERT: Probabilistic Genome Representation Improves Genomics Foundation Models"
   authors: "Weicai Long, Houcheng Su, Jiaqi Xiong, Yanlin Zhang"
@@ -66,6 +74,8 @@
   topic: "learning"
   label: "Reliable ML"
   url: "https://doi.org/10.24963/ijcai.2025/155"
+  image: "/images/esbn-framework.png"
+  image_alt: "ESBN framework for source-free universal domain adaptation"
 
 - title: "Towards Fully Test-Time Adaptation via Variance Balancing and Semantic Augmentation"
   authors: "Houcheng Su, Bingli Wang, Daixian Liu, Jiao Li, Chen-Bin Feng, Chi-Man Vong"

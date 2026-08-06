@@ -36,12 +36,12 @@ redirect_from:
     <span>Selected updates</span>
   </div>
   <ul class="news-list">
-    <li><time datetime="2026-07">2026.07</time><p><strong>BioMaster</strong> was published in <em>Patterns</em>.</p></li>
-    <li><time datetime="2026-04">2026.04</time><p><strong>GenomeQA</strong> and <strong>PhageBench</strong> were published at ACL 2026 and Findings of ACL 2026.</p></li>
-    <li><time datetime="2026-04">2026.04</time><p>We released <strong>PopGenAgent</strong>, an agent-mediated workflow for population genetics analyses.</p></li>
-    <li><time datetime="2025-05">2025.05</time><p>One paper was accepted at <strong>ICML 2025</strong>.</p></li>
-    <li><time datetime="2025-04">2025.04</time><p>One co-first-author paper was accepted at <strong>IJCAI 2025</strong>.</p></li>
-    <li><time datetime="2025-03">2025.03</time><p><strong>MutBERT</strong> was accepted by the ISMB Proceedings track.</p></li>
+    <li><time datetime="2026-07">2026.07</time><p><a href="https://doi.org/10.1016/j.patter.2026.101611" target="_blank" rel="noopener"><strong>BioMaster</strong></a> was published in <em>Patterns</em>.</p></li>
+    <li><time datetime="2026-04">2026.04</time><p><a href="https://doi.org/10.18653/v1/2026.acl-long.1655" target="_blank" rel="noopener"><strong>GenomeQA</strong></a> and <a href="https://doi.org/10.18653/v1/2026.findings-acl.1432" target="_blank" rel="noopener"><strong>PhageBench</strong></a> appeared at ACL 2026.</p></li>
+    <li><time datetime="2026-04">2026.04</time><p>We released <a href="https://doi.org/10.64898/2026.03.02.709209" target="_blank" rel="noopener"><strong>PopGenAgent</strong></a> for population genetics analyses.</p></li>
+    <li><time datetime="2025-05">2025.05</time><p><a href="https://proceedings.mlr.press/v267/wang25cq.html" target="_blank" rel="noopener"><strong>GraphCL</strong></a> was accepted at ICML 2025.</p></li>
+    <li><time datetime="2025-04">2025.04</time><p><a href="https://doi.org/10.24963/ijcai.2025/155" target="_blank" rel="noopener"><strong>ESBN</strong></a> was accepted at IJCAI 2025.</p></li>
+    <li><time datetime="2025-03">2025.03</time><p><a href="https://doi.org/10.1093/bioinformatics/btaf229" target="_blank" rel="noopener"><strong>MutBERT</strong></a> was accepted by the ISMB Proceedings track.</p></li>
     <li><time datetime="2024-08">2024.08</time><p>I started my Ph.D. study at HKUST (Guangzhou).</p></li>
   </ul>
 </section>
@@ -59,9 +59,9 @@ redirect_from:
   <div class="publication-list">
     {% for paper in site.data.publications %}{% if paper.topic == "agents" %}
     <article class="publication-entry">
-      <div class="publication-entry__thumb">
-        {% if paper.image %}<img src="{{ paper.image }}" alt="Figure for {{ paper.title }}" loading="lazy">{% else %}<span>{{ paper.venue }}</span>{% endif %}
-      </div>
+      <a class="publication-entry__thumb" href="{{ paper.url }}" target="_blank" rel="noopener" aria-label="Open {{ paper.title }}">
+        {% if paper.image %}<img src="{{ paper.image }}" alt="{% if paper.image_alt %}{{ paper.image_alt }}{% else %}Figure for {{ paper.title }}{% endif %}" loading="lazy" decoding="async">{% else %}<span>{{ paper.venue }}</span>{% endif %}
+      </a>
       <div class="publication-entry__content">
         <div class="publication-entry__meta"><span>{{ paper.venue }}</span><span>{{ paper.year }}</span></div>
         <h4><a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a></h4>
@@ -76,9 +76,9 @@ redirect_from:
   <div class="publication-list">
     {% for paper in site.data.publications %}{% if paper.topic == "science" %}
     <article class="publication-entry">
-      <div class="publication-entry__thumb">
-        {% if paper.image %}<img src="{{ paper.image }}" alt="Figure for {{ paper.title }}" loading="lazy">{% else %}<span>{{ paper.venue }}</span>{% endif %}
-      </div>
+      <a class="publication-entry__thumb" href="{{ paper.url }}" target="_blank" rel="noopener" aria-label="Open {{ paper.title }}">
+        {% if paper.image %}<img src="{{ paper.image }}" alt="{% if paper.image_alt %}{{ paper.image_alt }}{% else %}Figure for {{ paper.title }}{% endif %}" loading="lazy" decoding="async">{% else %}<span>{{ paper.venue }}</span>{% endif %}
+      </a>
       <div class="publication-entry__content">
         <div class="publication-entry__meta"><span>{{ paper.venue }}</span><span>{{ paper.year }}</span></div>
         <h4><a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a></h4>
@@ -93,9 +93,9 @@ redirect_from:
   <div class="publication-list">
     {% for paper in site.data.publications %}{% if paper.topic == "learning" %}
     <article class="publication-entry">
-      <div class="publication-entry__thumb">
-        {% if paper.image %}<img src="{{ paper.image }}" alt="Figure for {{ paper.title }}" loading="lazy">{% else %}<span>{{ paper.venue }}</span>{% endif %}
-      </div>
+      <a class="publication-entry__thumb" href="{{ paper.url }}" target="_blank" rel="noopener" aria-label="Open {{ paper.title }}">
+        {% if paper.image %}<img src="{{ paper.image }}" alt="{% if paper.image_alt %}{{ paper.image_alt }}{% else %}Figure for {{ paper.title }}{% endif %}" loading="lazy" decoding="async">{% else %}<span>{{ paper.venue }}</span>{% endif %}
+      </a>
       <div class="publication-entry__content">
         <div class="publication-entry__meta"><span>{{ paper.venue }}</span><span>{{ paper.year }}</span></div>
         <h4><a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a></h4>

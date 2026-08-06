@@ -432,37 +432,62 @@ a:hover {
 }
 
 .news-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .news-list li {
+  position: relative;
   display: grid;
-  grid-template-columns: 5rem minmax(0, 1fr);
-  gap: 0.8rem;
+  grid-template-columns: 4.35rem minmax(0, 1fr);
+  align-items: start;
+  gap: 0.7rem;
   margin: 0;
-  padding: 0.48rem 0;
-  border-bottom: 1px dashed #edf0f3;
+  padding: 0.8rem 0.9rem;
+  background: #fbfcfd;
+  border: 1px solid var(--cv-line);
+  border-radius: 6px;
 }
 
-.news-list li:last-child {
-  border-bottom: 0;
+.news-list li:first-child {
+  grid-column: 1 / -1;
+  background: var(--cv-blue-soft);
+  border-color: #dbe7f3;
 }
 
 .news-list time {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 1.55rem;
+  padding: 0.15rem 0.35rem;
   color: var(--cv-blue);
-  font-size: 0.78rem;
-  font-weight: 600;
+  font-size: 0.7rem;
+  font-weight: 700;
   font-variant-numeric: tabular-nums;
+  background: #fff;
+  border: 1px solid #dbe7f3;
+  border-radius: 999px;
 }
 
 .news-list p,
 .page__content .news-list p {
   margin: 0;
   color: #4e5761;
-  font-size: 0.86rem;
+  font-size: 0.82rem;
   line-height: 1.5;
+}
+
+.news-list a {
+  color: #2c4562;
+}
+
+.news-list a:hover {
+  color: var(--cv-blue);
 }
 
 .publication-group-title,
@@ -481,7 +506,7 @@ a:hover {
 
 .publication-entry {
   display: grid;
-  grid-template-columns: 145px minmax(0, 1fr);
+  grid-template-columns: 165px minmax(0, 1fr);
   gap: 1.15rem;
   padding: 1.15rem 0;
   border-bottom: 1px solid #edf0f3;
@@ -494,16 +519,21 @@ a:hover {
 .publication-entry__thumb {
   display: grid;
   place-items: center;
-  width: 145px;
-  height: 92px;
+  width: 165px;
+  height: 104px;
   overflow: hidden;
   color: var(--cv-blue-dark);
   font-size: 0.72rem;
   font-weight: 700;
   text-align: center;
+  text-decoration: none;
   background: var(--cv-blue-soft);
   border: 1px solid var(--cv-line);
   border-radius: 4px;
+}
+
+.publication-entry__thumb:hover {
+  border-color: #b8cde2;
 }
 
 .publication-entry__thumb img {
@@ -721,6 +751,14 @@ a:hover {
   .cv-section {
     margin-bottom: 2.2rem;
     padding-bottom: 2.2rem;
+  }
+
+  .news-list {
+    grid-template-columns: 1fr;
+  }
+
+  .news-list li:first-child {
+    grid-column: auto;
   }
 }
 
