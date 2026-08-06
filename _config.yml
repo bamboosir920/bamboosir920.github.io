@@ -7,27 +7,28 @@
 
 # Site Settings
 title                    : "Houcheng Su"
-description              : "Bioinformatics, Transfer Learning, Muti-instance Muti-label Learning, Computer Vision"
-repository               : "HouchengSu/bamboosir920.github.io"
+description              : "Ph.D. student at HKUST (Guangzhou) working on AI agents for scientific workflows, AI for Science, computational genomics, and reliable machine learning."
+url                      : "https://bamboosir920.github.io"
+repository               : "bamboosir920/bamboosir920.github.io"
 google_scholar_stats_use_cdn : true
 
 # Google Analytics
-google_analytics_id      : "77x1NdQAAAAJ"  # get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id      :
 
 # SEO Related
-google_site_verification : "YOUR_GOOGLE_SITE_VERIFICATION_CODE"  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   : "YOUR_BING_SITE_VERIFICATION_CODE"  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  : "YOUR_BAIDU_SITE_VERIFICATION_CODE"  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+google_site_verification :
+bing_site_verification   :
+baidu_site_verification  :
 
 # Site Author
 author:
   name             : "Houcheng Su"
   avatar           : "images/android-chrome-192x192.png"
-  bio              : ""
+  bio              : "Ph.D. Student in Data Science and Analytics"
   location         : "Guangzhou, China"
-  employer         : "HKUST(GZ)"
+  employer         : "HKUST (Guangzhou)"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com.hk/citations?user=77x1NdQAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=77x1NdQAAAAJ&hl=en"
   email            : "hsu638@connect.hkust-gz.edu.cn"
   researchgate     : 
   uri              :
@@ -44,8 +45,8 @@ author:
   impactstory      : 
   lastfm           :
   linkedin         : 
-  dblp             : 
-  orcid            : 
+  dblp             : "https://dblp.org/pid/297/3599.html"
+  orcid            : "https://orcid.org/0000-0001-6558-4244"
   pinterest        :
   soundcloud       :
   stackoverflow    : 
