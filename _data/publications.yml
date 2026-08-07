@@ -119,7 +119,7 @@
   url: "https://doi.org/10.1109/IJCNN64981.2025.11229366"
   image: "/images/ijcnn-2025-logo.png"
   image_fit: "contain"
-  image_alt: "Official IJCNN 2025 conference logo"
+  image_alt: "Feature visualization comparing raw data, DCG, CIRL, and SMS by domains and classes"
 
 - title: "Sharpness-Aware Model-Agnostic Long-Tailed Domain Generalization"
   authors: "Houcheng Su, Weihao Luo, Daixian Liu, Mengzhu Wang, Jing Tang, Junyang Chen, Cong Wang, Zhenghan Chen"
