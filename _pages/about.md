@@ -174,7 +174,7 @@ redirect_from:
 <section class="cv-section" id="service" aria-labelledby="service-title">
   <div class="cv-heading"><h2 id="service-title">📰 Peer Review</h2></div>
   <div class="service-list">
-    <div><h3>Conference Reviewer</h3><p>ICLR · NeurIPS · CVPR · ACM Multimedia · IJCAI · ICASSP · IJCNN</p></div>
+    <div><h3>Conference Reviewer</h3><p>ICASSP 2024 · ICASSP 2025 · AAAI 2025 · ICML 2025 · NeurIPS 2025 · IJCAI 2024 · IJCAI 2025 · ICLR 2025</p></div>
     <div><h3>Journal Reviewer</h3><p>Frontiers of Computer Science · The Journal of Supercomputing</p></div>
   </div>
 </section>
