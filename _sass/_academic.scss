@@ -771,24 +771,6 @@ a:hover {
   font-weight: 650;
 }
 
-.publication-entry__contribution {
-  display: flex;
-  margin: 0 0 0.38rem;
-}
-
-.publication-entry__contribution span {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.16rem 0.48rem;
-  color: var(--cv-red-dark);
-  font-size: 0.69rem;
-  font-weight: 750;
-  line-height: 1.25;
-  background: var(--cv-red-soft);
-  border: 1px solid var(--cv-red-line);
-  border-radius: 999px;
-}
-
 .publication-entry__links {
   display: flex;
   gap: 0.75rem;
