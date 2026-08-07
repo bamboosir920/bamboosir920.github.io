@@ -126,10 +126,48 @@ redirect_from:
 
 <section class="cv-section" id="education" aria-labelledby="education-title">
   <div class="cv-heading"><h2 id="education-title">📖 Education</h2></div>
-  <div class="resume-list">
-    <article><time>2024.08 — 2028.06</time><div><h3>Ph.D. in Data Science and Analytics</h3><p>Hong Kong University of Science and Technology (Guangzhou)</p><p>Advisor: Prof. Yanlin Zhang · <strong class="text-accent">Expected graduation: June 2028</strong></p></div></article>
-    <article><time>2022.08 — 2024.06</time><div><h3>M.Sc. in Data Science</h3><p>University of Macau · Artificial Intelligence Applications</p><p>Advisor: Prof. Chi-Man Vong</p></div></article>
-    <article><time>2018.09 — 2022.06</time><div><h3>B.Eng. in Computer Science and Technology</h3><p>Sichuan Agricultural University</p></div></article>
+  <div class="education-list">
+    <article class="education-card">
+      <div class="education-card__content">
+        <div class="education-card__topline"><span>Doctoral</span><time>2024.08 — 2028.06</time></div>
+        <h3>Ph.D. in Data Science and Analytics</h3>
+        <p class="education-card__institution"><a href="https://www.hkust-gz.edu.cn/" target="_blank" rel="noopener">Hong Kong University of Science and Technology (Guangzhou)</a></p>
+        <a class="education-card__credential education-card__credential--qs" href="https://www.topuniversities.com/universities/hong-kong-university-science-technology" target="_blank" rel="noopener">HKUST · QS World University Rankings 2027 · <strong>#33</strong></a>
+        <ul>
+          <li><strong>Ph.D. Candidate</strong> · Expected graduation: <strong>June 2028</strong></li>
+          <li>Advisor: <a href="https://scholar.google.com/citations?user=1K76SCUAAAAJ" target="_blank" rel="noopener">Prof. Yanlin Zhang</a></li>
+        </ul>
+      </div>
+      <a class="education-card__logo education-card__logo--hkust" href="https://www.hkust-gz.edu.cn/" target="_blank" rel="noopener" aria-label="Visit HKUST Guangzhou website"><img src="/images/school-hkust-gz.png" alt="Hong Kong University of Science and Technology Guangzhou logo" loading="lazy" decoding="async"></a>
+    </article>
+
+    <article class="education-card">
+      <div class="education-card__content">
+        <div class="education-card__topline"><span>Master</span><time>2022.08 — 2024.06</time></div>
+        <h3>M.Sc. in Data Science</h3>
+        <p class="education-card__institution"><a href="https://www.um.edu.mo/" target="_blank" rel="noopener">University of Macau</a></p>
+        <a class="education-card__credential education-card__credential--qs" href="https://www.topuniversities.com/universities/university-macau" target="_blank" rel="noopener">University of Macau · QS World University Rankings 2027 · <strong>#267</strong></a>
+        <ul>
+          <li>Concentration: <strong>Artificial Intelligence Applications</strong></li>
+          <li>Advisor: <a href="https://scholar.google.com/citations?user=uFUPIekAAAAJ" target="_blank" rel="noopener">Prof. Chi-Man Vong</a></li>
+        </ul>
+      </div>
+      <a class="education-card__logo education-card__logo--um" href="https://www.um.edu.mo/" target="_blank" rel="noopener" aria-label="Visit University of Macau website"><img src="/images/school-um.png" alt="University of Macau logo" loading="lazy" decoding="async"></a>
+    </article>
+
+    <article class="education-card">
+      <div class="education-card__content">
+        <div class="education-card__topline"><span>Undergraduate</span><time>2018.09 — 2022.06</time></div>
+        <h3>B.Eng. in Computer Science and Technology</h3>
+        <p class="education-card__institution"><a href="https://www.sicau.edu.cn/" target="_blank" rel="noopener">Sichuan Agricultural University</a></p>
+        <a class="education-card__credential education-card__credential--211" href="https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html" target="_blank" rel="noopener">Project 211 · <strong>National Key University</strong></a>
+        <ul>
+          <li>A national key university supported under China’s <a href="https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html" target="_blank" rel="noopener"><strong>Project 211</strong></a>.</li>
+          <li>Completed undergraduate study in Computer Science and Technology.</li>
+        </ul>
+      </div>
+      <a class="education-card__logo education-card__logo--sicau" href="https://www.sicau.edu.cn/" target="_blank" rel="noopener" aria-label="Visit Sichuan Agricultural University website"><img src="/images/school-sicau.png" alt="Sichuan Agricultural University logo" loading="lazy" decoding="async"></a>
+    </article>
   </div>
 </section>
 

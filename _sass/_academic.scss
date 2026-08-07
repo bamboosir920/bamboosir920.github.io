@@ -740,39 +740,146 @@ a:hover {
   font-weight: 600;
 }
 
-.resume-list {
-  border-top: 1px solid var(--cv-line);
-}
-
-.resume-list article {
+.education-list {
   display: grid;
-  grid-template-columns: 9.5rem minmax(0, 1fr);
-  gap: 1.5rem;
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--cv-line);
+  gap: 1rem;
 }
 
-.resume-list time {
-  color: var(--cv-blue);
+.education-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 148px;
+  gap: 1.35rem;
+  align-items: center;
+  padding: 1.2rem 1.25rem;
+  background: #fff;
+  border: 1px solid var(--cv-line);
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(31, 43, 57, 0.065);
+}
+
+.education-card__topline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem 1rem;
+  margin-bottom: 0.45rem;
+}
+
+.education-card__topline > span {
+  color: var(--cv-blue-dark);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+}
+
+.education-card__topline time {
+  color: var(--cv-muted);
   font-size: 0.82rem;
-  font-weight: 600;
+  font-weight: 650;
   font-variant-numeric: tabular-nums;
 }
 
-.resume-list h3,
-.page__content .resume-list h3,
+.education-card h3,
+.page__content .education-card h3,
 .service-list h3,
 .page__content .service-list h3 {
-  margin: 0 0 0.15rem;
-  font-size: 0.98rem;
+  margin: 0 0 0.25rem;
+  font-size: 1.03rem;
+  font-weight: 700;
+}
+
+.education-card__institution,
+.page__content .education-card__institution {
+  margin: 0 0 0.6rem;
+  color: #4b5663;
+  font-size: 0.9rem;
   font-weight: 650;
 }
 
-.resume-list p,
-.page__content .resume-list p {
+.education-card__institution a {
+  color: #3a4858;
+}
+
+.education-card__credential,
+.page__content .education-card__credential {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin: 0 0 0.65rem;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.3;
+  border: 1px solid;
+  border-radius: 999px;
+}
+
+.education-card__credential--qs,
+.page__content .education-card__credential--qs {
+  color: var(--cv-red-dark);
+  background: var(--cv-red-soft);
+  border-color: var(--cv-red-line);
+}
+
+.education-card__credential--211,
+.page__content .education-card__credential--211 {
+  color: #246144;
+  background: #f1f8f4;
+  border-color: #cce2d5;
+}
+
+.education-card__credential:hover,
+.page__content .education-card__credential:hover {
+  text-decoration: none;
+  filter: brightness(0.96);
+}
+
+.education-card ul {
   margin: 0;
+  padding-left: 1.15rem;
+}
+
+.education-card li {
+  margin: 0.18rem 0;
   color: var(--cv-muted);
-  font-size: 0.86rem;
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
+.education-card__logo {
+  display: grid;
+  place-items: center;
+  width: 148px;
+  height: 104px;
+  padding: 0.7rem;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--cv-line);
+  border-radius: 9px;
+  box-shadow: 0 5px 15px rgba(31, 43, 57, 0.09);
+}
+
+.education-card__logo img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  object-fit: contain;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.education-card__logo--hkust {
+  background: #123d6a;
+  border-color: #123d6a;
+}
+
+.education-card__logo--sicau {
+  background: #f5faf7;
+  border-color: #d8e8de;
 }
 
 .service-list {
@@ -907,6 +1014,18 @@ a:hover {
     border-radius: 0;
     box-shadow: none;
   }
+
+  .education-card {
+    grid-template-columns: minmax(0, 1fr) 112px;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .education-card__logo {
+    width: 112px;
+    height: 86px;
+    padding: 0.55rem;
+  }
 }
 
 @media (max-width: 520px) {
@@ -983,9 +1102,21 @@ a:hover {
     gap: 0.2rem;
   }
 
-  .resume-list article {
-    grid-template-columns: 1fr;
-    gap: 0.25rem;
+  .education-card {
+    grid-template-columns: minmax(0, 1fr) 88px;
+    gap: 0.75rem;
+    padding: 0.9rem;
+  }
+
+  .education-card__logo {
+    width: 88px;
+    height: 72px;
+    padding: 0.4rem;
+  }
+
+  .education-card__credential,
+  .page__content .education-card__credential {
+    border-radius: 7px;
   }
 
   .service-list {
@@ -1010,6 +1141,15 @@ a:hover {
   .publication-entry__thumb {
     width: 100%;
     height: 120px;
+  }
+
+  .education-card {
+    grid-template-columns: 1fr;
+  }
+
+  .education-card__logo {
+    width: 100%;
+    height: 76px;
   }
 }
 
