@@ -173,10 +173,17 @@ redirect_from:
 
 <section class="cv-section" id="service" aria-labelledby="service-title">
   <div class="cv-heading"><h2 id="service-title">📰 Peer Review</h2></div>
-  <div class="service-list">
-    <div><h3>Conference Reviewer</h3><p>ICASSP 2024 · ICASSP 2025 · AAAI 2025 · ICML 2025 · NeurIPS 2025 · IJCAI 2024 · IJCAI 2025 · ICLR 2025</p></div>
-    <div><h3>Journal Reviewer</h3><p>Frontiers of Computer Science · The Journal of Supercomputing</p></div>
-  </div>
+  <ul class="review-list" aria-label="Peer review experience">
+    <li><time datetime="2025">2025</time><p><strong>ICASSP 2025</strong> Reviewer</p></li>
+    <li><time datetime="2025">2025</time><p><strong>AAAI 2025</strong> Reviewer</p></li>
+    <li><time datetime="2025">2025</time><p><strong>ICML 2025</strong> Reviewer</p></li>
+    <li><time datetime="2025">2025</time><p><strong>NeurIPS 2025</strong> Reviewer</p></li>
+    <li><time datetime="2025">2025</time><p><strong>IJCAI 2025</strong> Reviewer</p></li>
+    <li><time datetime="2025">2025</time><p><strong>ICLR 2025</strong> Reviewer</p></li>
+    <li><time datetime="2024">2024</time><p><strong>ICASSP 2024</strong> Reviewer</p></li>
+    <li><time datetime="2024">2024</time><p><strong>IJCAI 2024</strong> Reviewer</p></li>
+    <li class="review-list__journals"><span>Journals</span><p><strong>Frontiers of Computer Science</strong> · <strong>The Journal of Supercomputing</strong></p></li>
+  </ul>
 </section>
 
 <footer class="cv-footer">
