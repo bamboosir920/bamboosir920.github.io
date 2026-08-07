@@ -40,7 +40,7 @@ redirect_from:
   </div>
   <article class="featured-news" aria-labelledby="biomaster-cover-title">
     <div class="featured-news__eyebrow"><span>🎊 Cover Article</span><time datetime="2026-08">August 2026</time></div>
-    <h3 id="biomaster-cover-title">Congratulations! BioMaster is the August cover article of <em>Patterns</em></h3>
+    <h3 id="biomaster-cover-title">Congratulations! BioMaster is the August cover article of <em>Patterns</em>, a Cell Press journal</h3>
     <p><strong class="text-accent">BioMaster 2.0</strong> has been extensively rebuilt through secondary development on top of <strong>OpenCode</strong>. The refactored system provides a cleaner, more extensible foundation for knowledge-guided bioinformatics workflow planning, execution, debugging, and checking.</p>
     <div class="featured-news__links">
       <a href="https://ai4nucleome.github.io/BioMaster/" target="_blank" rel="noopener">Explore BioMaster 2.0 →</a>
@@ -51,7 +51,7 @@ redirect_from:
   <div class="scroll-window news-window" tabindex="0" aria-label="News updates; scroll to read older items">
     <ul class="news-list">
       <li class="news-list__featured"><time datetime="2026-08">2026.08:</time><p><span aria-hidden="true">🎊🎊</span> <a href="https://ai4nucleome.github.io/BioMaster/" target="_blank" rel="noopener"><strong>BioMaster 2.0</strong></a>, an extensive OpenCode-based refactor, is now online.</p></li>
-      <li><time datetime="2026-07">2026.07:</time><p><span aria-hidden="true">🎉🎉</span> <a href="https://doi.org/10.1016/j.patter.2026.101611" target="_blank" rel="noopener"><strong>BioMaster</strong></a> was published in <em>Patterns</em>.</p></li>
+      <li><time datetime="2026-07">2026.07:</time><p><span aria-hidden="true">🎉🎉</span> <a href="https://doi.org/10.1016/j.patter.2026.101611" target="_blank" rel="noopener"><strong>BioMaster</strong></a> was published in <em>Patterns</em>, a <strong>Cell Press</strong> journal.</p></li>
       <li><time datetime="2026-04">2026.04:</time><p><span aria-hidden="true">🎉🎉</span> <a href="https://doi.org/10.18653/v1/2026.acl-long.1655" target="_blank" rel="noopener"><strong>GenomeQA</strong></a> and <a href="https://doi.org/10.18653/v1/2026.findings-acl.1432" target="_blank" rel="noopener"><strong>PhageBench</strong></a> appeared at ACL 2026.</p></li>
       <li><time datetime="2026-04">2026.04:</time><p><span aria-hidden="true">🚀🚀</span> We released <a href="https://doi.org/10.64898/2026.03.02.709209" target="_blank" rel="noopener"><strong>PopGenAgent</strong></a> for population genetics analyses.</p></li>
       <li><time datetime="2025-05">2025.05:</time><p><span aria-hidden="true">🎉🎉</span> <a href="https://proceedings.mlr.press/v267/wang25cq.html" target="_blank" rel="noopener"><strong>GraphCL</strong></a> was accepted at ICML 2025.</p></li>
