@@ -67,7 +67,7 @@ redirect_from:
   <div class="cv-heading cv-heading--publications">
     <div>
       <h2 id="publications-title">📝 Publications</h2>
-      <p><sup>*</sup> denotes equal contribution. My name is shown in bold.</p>
+      <p><sup>*</sup> Equal contribution · <sup>✉</sup> Corresponding author · My name is shown in bold.</p>
     </div>
     <a href="https://scholar.google.com/citations?user=77x1NdQAAAAJ&hl=en" target="_blank" rel="noopener">Full list on Google Scholar →</a>
   </div>
@@ -77,12 +77,13 @@ redirect_from:
     {% for paper in agent_papers %}
     <article class="publication-entry">
       <a class="publication-entry__thumb" href="{{ paper.url }}" target="_blank" rel="noopener" aria-label="Open {{ paper.title }}">
-        {% if paper.image %}<img src="{{ paper.image }}" alt="{% if paper.image_alt %}{{ paper.image_alt }}{% else %}Figure for {{ paper.title }}{% endif %}" loading="lazy" decoding="async">{% else %}<span>{{ paper.venue }}</span>{% endif %}
+        {% if paper.image %}<img{% if paper.image_fit == "contain" %} class="publication-entry__image--contain"{% endif %} src="{{ paper.image }}" alt="{% if paper.image_alt %}{{ paper.image_alt }}{% else %}Figure for {{ paper.title }}{% endif %}" loading="lazy" decoding="async">{% else %}<span>{{ paper.venue }}</span>{% endif %}
       </a>
       <div class="publication-entry__content">
-        <div class="publication-entry__meta"><span>{{ paper.venue }}</span><span>{{ paper.year }}</span>{% if paper.highlight %}<span class="publication-entry__highlight">{{ paper.highlight }}</span>{% endif %}</div>
+        <div class="publication-entry__meta"><span>{{ paper.venue }}</span><span>{{ paper.year }}</span>{% if paper.impact_factor %}<a class="publication-entry__impact" href="{{ paper.impact_url }}" target="_blank" rel="noopener" title="{{ paper.impact_year }} Journal Impact Factor">{{ paper.impact_year }} IF {{ paper.impact_factor }}</a>{% endif %}{% if paper.highlight %}<span class="publication-entry__highlight">{{ paper.highlight }}</span>{% endif %}</div>
         <h4><a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a></h4>
         <p class="publication-entry__authors">{{ paper.authors | replace: "Houcheng Su", "<strong>Houcheng Su</strong>" }}</p>
+        {% if paper.contribution %}<div class="publication-entry__contribution"><span>{{ paper.contribution }}</span></div>{% endif %}
         <div class="publication-entry__links"><a href="{{ paper.url }}" target="_blank" rel="noopener">Paper</a>{% if paper.project %}<a href="{{ paper.project }}" target="_blank" rel="noopener">Project</a>{% endif %}{% if paper.code %}<a href="{{ paper.code }}" target="_blank" rel="noopener">Code</a>{% endif %}</div>
       </div>
     </article>
@@ -94,12 +95,13 @@ redirect_from:
     {% for paper in science_papers %}
     <article class="publication-entry">
       <a class="publication-entry__thumb" href="{{ paper.url }}" target="_blank" rel="noopener" aria-label="Open {{ paper.title }}">
-        {% if paper.image %}<img src="{{ paper.image }}" alt="{% if paper.image_alt %}{{ paper.image_alt }}{% else %}Figure for {{ paper.title }}{% endif %}" loading="lazy" decoding="async">{% else %}<span>{{ paper.venue }}</span>{% endif %}
+        {% if paper.image %}<img{% if paper.image_fit == "contain" %} class="publication-entry__image--contain"{% endif %} src="{{ paper.image }}" alt="{% if paper.image_alt %}{{ paper.image_alt }}{% else %}Figure for {{ paper.title }}{% endif %}" loading="lazy" decoding="async">{% else %}<span>{{ paper.venue }}</span>{% endif %}
       </a>
       <div class="publication-entry__content">
-        <div class="publication-entry__meta"><span>{{ paper.venue }}</span><span>{{ paper.year }}</span>{% if paper.highlight %}<span class="publication-entry__highlight">{{ paper.highlight }}</span>{% endif %}</div>
+        <div class="publication-entry__meta"><span>{{ paper.venue }}</span><span>{{ paper.year }}</span>{% if paper.impact_factor %}<a class="publication-entry__impact" href="{{ paper.impact_url }}" target="_blank" rel="noopener" title="{{ paper.impact_year }} Journal Impact Factor">{{ paper.impact_year }} IF {{ paper.impact_factor }}</a>{% endif %}{% if paper.highlight %}<span class="publication-entry__highlight">{{ paper.highlight }}</span>{% endif %}</div>
         <h4><a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a></h4>
         <p class="publication-entry__authors">{{ paper.authors | replace: "Houcheng Su", "<strong>Houcheng Su</strong>" }}</p>
+        {% if paper.contribution %}<div class="publication-entry__contribution"><span>{{ paper.contribution }}</span></div>{% endif %}
         <div class="publication-entry__links"><a href="{{ paper.url }}" target="_blank" rel="noopener">Paper</a>{% if paper.project %}<a href="{{ paper.project }}" target="_blank" rel="noopener">Project</a>{% endif %}{% if paper.code %}<a href="{{ paper.code }}" target="_blank" rel="noopener">Code</a>{% endif %}</div>
       </div>
     </article>
@@ -111,12 +113,13 @@ redirect_from:
     {% for paper in learning_papers %}
     <article class="publication-entry">
       <a class="publication-entry__thumb" href="{{ paper.url }}" target="_blank" rel="noopener" aria-label="Open {{ paper.title }}">
-        {% if paper.image %}<img src="{{ paper.image }}" alt="{% if paper.image_alt %}{{ paper.image_alt }}{% else %}Figure for {{ paper.title }}{% endif %}" loading="lazy" decoding="async">{% else %}<span>{{ paper.venue }}</span>{% endif %}
+        {% if paper.image %}<img{% if paper.image_fit == "contain" %} class="publication-entry__image--contain"{% endif %} src="{{ paper.image }}" alt="{% if paper.image_alt %}{{ paper.image_alt }}{% else %}Figure for {{ paper.title }}{% endif %}" loading="lazy" decoding="async">{% else %}<span>{{ paper.venue }}</span>{% endif %}
       </a>
       <div class="publication-entry__content">
-        <div class="publication-entry__meta"><span>{{ paper.venue }}</span><span>{{ paper.year }}</span>{% if paper.highlight %}<span class="publication-entry__highlight">{{ paper.highlight }}</span>{% endif %}</div>
+        <div class="publication-entry__meta"><span>{{ paper.venue }}</span><span>{{ paper.year }}</span>{% if paper.impact_factor %}<a class="publication-entry__impact" href="{{ paper.impact_url }}" target="_blank" rel="noopener" title="{{ paper.impact_year }} Journal Impact Factor">{{ paper.impact_year }} IF {{ paper.impact_factor }}</a>{% endif %}{% if paper.highlight %}<span class="publication-entry__highlight">{{ paper.highlight }}</span>{% endif %}</div>
         <h4><a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a></h4>
         <p class="publication-entry__authors">{{ paper.authors | replace: "Houcheng Su", "<strong>Houcheng Su</strong>" }}</p>
+        {% if paper.contribution %}<div class="publication-entry__contribution"><span>{{ paper.contribution }}</span></div>{% endif %}
         <div class="publication-entry__links"><a href="{{ paper.url }}" target="_blank" rel="noopener">Paper</a>{% if paper.project %}<a href="{{ paper.project }}" target="_blank" rel="noopener">Project</a>{% endif %}{% if paper.code %}<a href="{{ paper.code }}" target="_blank" rel="noopener">Code</a>{% endif %}</div>
       </div>
     </article>
