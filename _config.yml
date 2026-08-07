@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Houcheng Su"
-description              : "Ph.D. student at HKUST (Guangzhou) working on AI agents for scientific workflows, AI for Science, computational genomics, and reliable machine learning."
+description              : "Ph.D. candidate at HKUST (Guangzhou) working on AI agents for scientific workflows, AI for Science, computational genomics, and reliable machine learning."
 url                      : "https://bamboosir920.github.io"
 repository               : "bamboosir920/bamboosir920.github.io"
 google_scholar_stats_use_cdn : true
@@ -24,7 +24,7 @@ baidu_site_verification  :
 author:
   name             : "Houcheng Su"
   avatar           : "images/android-chrome-192x192.png"
-  bio              : "Ph.D. Student in Data Science and Analytics"
+  bio              : "Ph.D. Candidate in Data Science and Analytics"
   location         : "Guangzhou, China"
   employer         : "HKUST (Guangzhou)"
   pubmed           : 

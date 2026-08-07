@@ -6,7 +6,10 @@
   label: "Agentic Science"
   url: "https://doi.org/10.1016/j.patter.2026.101611"
   code: "https://github.com/ai4nucleome/BioMaster"
+  project: "https://ai4nucleome.github.io/BioMaster/"
+  highlight: "August 2026 Cover Article"
   image: "/images/biomaster-overview.png"
+  image_alt: "BioMaster multi-agent architecture for automated bioinformatics workflow planning, execution, debugging, and checking"
 
 - title: "PopGenAgent: An Agent-Mediated Workflow for Population Genetics Analyses"
   authors: "Houcheng Su, Weicai Long, Juning Feng, Yusen Hou, Yanlin Zhang"

@@ -3,16 +3,22 @@
   --cv-blue: #315f9b;
   --cv-blue-dark: #254a7b;
   --cv-blue-soft: #f3f6fb;
+  --cv-red: #b4232d;
+  --cv-red-dark: #8f1720;
+  --cv-red-soft: #fff5f5;
+  --cv-red-line: #f1c9cd;
   --cv-text: #2c3138;
   --cv-muted: #67717d;
   --cv-light: #8b949e;
   --cv-line: #e4e8ed;
   --cv-paper: #ffffff;
   --cv-surface: #f8f9fb;
-  --cv-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --cv-font: Inter, "Segoe UI Variable Text", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  --cv-heading-font: Inter, "Segoe UI Variable Display", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
 }
 
 html {
+  font-size: 16px;
   scroll-behavior: smooth;
   scroll-padding-top: 5.5rem;
 }
@@ -21,7 +27,7 @@ body {
   margin: 0;
   color: var(--cv-text);
   font-family: var(--cv-font);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.65;
   background: var(--cv-paper);
   -webkit-font-smoothing: antialiased;
@@ -82,13 +88,13 @@ a:hover {
 .site-brand {
   flex: 0 0 auto;
   color: var(--cv-text);
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 700;
   text-decoration: none;
 }
 
 .masthead__menu {
-  min-width: 500px;
+  min-width: 525px;
   margin-left: auto;
 }
 
@@ -101,8 +107,8 @@ a:hover {
   margin: 0 0.75rem;
   padding: 1.25rem 0;
   color: #59636f;
-  font-size: 0.84rem;
-  font-weight: 500;
+  font-size: 0.87rem;
+  font-weight: 550;
 }
 
 .greedy-nav a:hover {
@@ -206,7 +212,7 @@ a:hover {
 
 .page__content p {
   margin: 0 0 0.9rem;
-  font-size: 0.97rem;
+  font-size: 1rem;
 }
 
 .page__content a {
@@ -223,7 +229,7 @@ a:hover {
 .page__content h3,
 .page__content h4 {
   color: var(--cv-text);
-  font-family: var(--cv-font);
+  font-family: var(--cv-heading-font);
   border: 0;
 }
 
@@ -256,7 +262,7 @@ a:hover {
 
 .profile__name {
   margin: 0 0 0.2rem;
-  font-size: 1.35rem;
+  font-size: 1.42rem;
   font-weight: 700;
   line-height: 1.25;
 }
@@ -264,14 +270,21 @@ a:hover {
 .profile__role {
   margin: 0;
   color: var(--cv-text);
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 0.96rem;
+  font-weight: 700;
+}
+
+.profile__graduation {
+  margin: 0.15rem 0 0;
+  color: var(--cv-red);
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 
 .profile__affiliation {
   margin: 0.35rem 0 1.15rem;
   color: var(--cv-muted);
-  font-size: 0.82rem;
+  font-size: 0.86rem;
   line-height: 1.5;
 }
 
@@ -287,7 +300,7 @@ a:hover {
   margin: 0.42rem 0;
   color: var(--cv-muted);
   font-family: var(--cv-font);
-  font-size: 0.79rem;
+  font-size: 0.83rem;
   line-height: 1.35;
 }
 
@@ -327,7 +340,7 @@ a:hover {
 .profile__topics span {
   padding: 0.25rem 0.45rem;
   color: var(--cv-blue-dark);
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   line-height: 1.2;
   background: var(--cv-blue-soft);
   border: 1px solid #dbe4f1;
@@ -350,7 +363,7 @@ a:hover {
 .page__content .cv-heading h2 {
   margin: 0 0 1.15rem;
   padding: 0 0 0.55rem;
-  font-size: 1.55rem;
+  font-size: 1.65rem;
   font-weight: 700;
   line-height: 1.25;
   border-bottom: 2px solid var(--cv-blue);
@@ -358,6 +371,11 @@ a:hover {
 
 .cv-intro > p {
   text-align: left;
+}
+
+.text-accent {
+  color: var(--cv-red);
+  font-weight: 750;
 }
 
 .collaboration-note {
@@ -377,7 +395,7 @@ a:hover {
 .research-focus h3,
 .page__content .research-focus h3 {
   margin: 0 0 0.55rem;
-  font-size: 0.92rem;
+  font-size: 0.98rem;
   font-weight: 700;
 }
 
@@ -393,7 +411,7 @@ a:hover {
   gap: 0.35rem;
   margin: 0.3rem 0;
   color: #465463;
-  font-size: 0.83rem;
+  font-size: 0.88rem;
   line-height: 1.55;
 }
 
@@ -459,8 +477,61 @@ a:hover {
   outline-offset: 2px;
 }
 
+.featured-news {
+  margin: 0 0 1rem;
+  padding: 1.15rem 1.25rem 1.2rem;
+  background: linear-gradient(135deg, var(--cv-red-soft), #fff 72%);
+  border: 1px solid var(--cv-red-line);
+  border-left: 4px solid var(--cv-red);
+  border-radius: 8px;
+  box-shadow: 0 7px 20px rgba(122, 34, 43, 0.08);
+}
+
+.featured-news__eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.45rem;
+  color: var(--cv-red);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+.featured-news h3,
+.page__content .featured-news h3 {
+  margin: 0 0 0.5rem;
+  color: #75212a;
+  font-size: 1.12rem;
+  font-weight: 750;
+  line-height: 1.4;
+}
+
+.featured-news p,
+.page__content .featured-news p {
+  margin: 0;
+  color: #4d4244;
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.featured-news__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1rem;
+  margin-top: 0.75rem;
+}
+
+.featured-news__links a {
+  color: var(--cv-red-dark);
+  font-size: 0.82rem;
+  font-weight: 750;
+}
+
 .news-window {
-  max-height: 15.5rem;
+  max-height: 17rem;
   padding: 0.75rem 1rem;
 }
 
@@ -490,7 +561,7 @@ a:hover {
 .news-list time {
   padding-top: 0.03rem;
   color: #535b65;
-  font-size: 0.8rem;
+  font-size: 0.84rem;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
 }
@@ -499,7 +570,7 @@ a:hover {
 .page__content .news-list p {
   margin: 0;
   color: #4e5761;
-  font-size: 0.84rem;
+  font-size: 0.89rem;
   line-height: 1.5;
 }
 
@@ -511,11 +582,16 @@ a:hover {
   color: var(--cv-blue);
 }
 
+.news-list__featured time,
+.news-list__featured a {
+  color: var(--cv-red-dark);
+}
+
 .scroll-hint,
 .page__content .scroll-hint {
   margin: 0.35rem 0 0;
   color: var(--cv-light);
-  font-size: 0.7rem;
+  font-size: 0.74rem;
 }
 
 .publication-group-title,
@@ -527,7 +603,7 @@ a:hover {
   margin: 1.8rem 0 0.4rem;
   padding-bottom: 0.35rem;
   color: #434b55;
-  font-size: 1rem;
+  font-size: 1.08rem;
   font-weight: 700;
   border-bottom: 1px solid var(--cv-line);
 }
@@ -540,7 +616,7 @@ a:hover {
   height: 1.35rem;
   padding: 0 0.35rem;
   color: var(--cv-blue);
-  font-size: 0.68rem;
+  font-size: 0.73rem;
   background: var(--cv-blue-soft);
   border: 1px solid #dbe7f3;
   border-radius: 999px;
@@ -551,7 +627,7 @@ a:hover {
 }
 
 .publication-list--scroll {
-  max-height: 35rem;
+  max-height: 38rem;
   padding: 0 0.85rem;
 }
 
@@ -599,10 +675,12 @@ a:hover {
 
 .publication-entry__meta {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 0.55rem;
   margin-bottom: 0.25rem;
   color: var(--cv-light);
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.035em;
   text-transform: uppercase;
@@ -612,10 +690,21 @@ a:hover {
   color: var(--cv-blue);
 }
 
+.publication-entry__meta .publication-entry__highlight {
+  padding: 0.12rem 0.4rem;
+  color: var(--cv-red-dark);
+  font-size: 0.67rem;
+  letter-spacing: 0.025em;
+  text-transform: none;
+  background: var(--cv-red-soft);
+  border: 1px solid var(--cv-red-line);
+  border-radius: 999px;
+}
+
 .publication-entry h4,
 .page__content .publication-entry h4 {
   margin: 0 0 0.35rem;
-  font-size: 0.98rem;
+  font-size: 1.04rem;
   font-weight: 650;
   line-height: 1.38;
 }
@@ -632,7 +721,7 @@ a:hover {
 .page__content .publication-entry__authors {
   margin: 0 0 0.3rem;
   color: var(--cv-muted);
-  font-size: 0.76rem;
+  font-size: 0.81rem;
   line-height: 1.5;
 }
 
@@ -647,7 +736,7 @@ a:hover {
 }
 
 .publication-entry__links a {
-  font-size: 0.73rem;
+  font-size: 0.78rem;
   font-weight: 600;
 }
 
@@ -665,7 +754,7 @@ a:hover {
 
 .resume-list time {
   color: var(--cv-blue);
-  font-size: 0.77rem;
+  font-size: 0.82rem;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
 }
@@ -675,7 +764,7 @@ a:hover {
 .service-list h3,
 .page__content .service-list h3 {
   margin: 0 0 0.15rem;
-  font-size: 0.91rem;
+  font-size: 0.98rem;
   font-weight: 650;
 }
 
@@ -683,7 +772,7 @@ a:hover {
 .page__content .resume-list p {
   margin: 0;
   color: var(--cv-muted);
-  font-size: 0.8rem;
+  font-size: 0.86rem;
 }
 
 .service-list {
@@ -709,14 +798,14 @@ a:hover {
 .page__content .service-list p {
   margin: 0;
   color: var(--cv-muted);
-  font-size: 0.8rem;
+  font-size: 0.86rem;
   line-height: 1.55;
 }
 
 .cv-footer {
   padding: 0.5rem 0 0;
   color: var(--cv-light);
-  font-size: 0.72rem;
+  font-size: 0.76rem;
 }
 
 .cv-footer p,
@@ -854,6 +943,25 @@ a:hover {
     height: 76px;
   }
 
+  .featured-news {
+    padding: 1rem;
+  }
+
+  .featured-news__eyebrow {
+    align-items: flex-start;
+    font-size: 0.72rem;
+  }
+
+  .featured-news h3,
+  .page__content .featured-news h3 {
+    font-size: 1.04rem;
+  }
+
+  .featured-news p,
+  .page__content .featured-news p {
+    font-size: 0.86rem;
+  }
+
   .news-window {
     max-height: 16.5rem;
     padding: 0.65rem 0.75rem;
@@ -867,7 +975,7 @@ a:hover {
   .news-list time,
   .news-list p,
   .page__content .news-list p {
-    font-size: 0.76rem;
+    font-size: 0.8rem;
   }
 
   .service-list > div {
